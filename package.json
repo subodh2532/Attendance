@@ -1,0 +1,19 @@
+{
+  "name": "attendance-tracker",
+  "version": "1.0.0",
+  "description": "Simple full-stack attendance tracker using Node.js, Express, and vanilla JavaScript.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "attendance",
+    "express",
+    "vanilla-js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
