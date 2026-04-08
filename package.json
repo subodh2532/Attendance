@@ -1,19 +1,23 @@
 {
-  "name": "attendance-tracker",
-  "version": "1.0.0",
-  "description": "Simple full-stack attendance tracker using Node.js, Express, and vanilla JavaScript.",
-  "main": "server.js",
+  "name": "attendance-tracker-next",
+  "version": "2.0.0",
+  "private": true,
   "scripts": {
-    "start": "node server.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "keywords": [
-    "attendance",
-    "express",
-    "vanilla-js"
-  ],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "express": "^4.21.2"
+    "@clerk/nextjs": "latest",
+    "@supabase/supabase-js": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
   }
 }
